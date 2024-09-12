@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "eslint ./src/**/*.{ts,tsx} App.tsx --no-error-on-unmatched-pattern",
-    "update": "npm update --save"
+    "update": "npm i expo@latest && expo install --fix"
   },
   "dependencies": {
     "expo": "^51.0.32",
